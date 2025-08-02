@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Chave da Alma - Jornada Devocional para Reconexão Espiritual</title>
+    <meta name="description" content="Uma jornada devocional com áudios e orações para destravar sua alma e reconectar com Deus. Cura da alma, devocional de fé, oração emocional.">
+    <meta name="keywords" content="cura da alma, devocional de fé, oração emocional, fé e libertação espiritual">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            scroll-behavior: smooth;
+        }
+        .title-font {
+            font-family: 'Playfair Display', serif;
+        }
+        .bg-gold {
+            background-color: #D4AF37;
+        }
+        .text-gold {
+            color: #D4AF37;
+        }
+        .border-gold {
+            border-color: #D4AF37;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1000') center/cover;
+        }
+        .fade-in {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 0;
+        }
+        .particle {
+            position: absolute;
+            background-color: rgba(212, 175, 55, 0.3);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        .testimonial-card {
+            transition: transform 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+        }
+        .quiz-option {
+            transition: all 0.3s ease;
+        }
+        .quiz-option:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .quiz-option.selected {
+            background-color: #F5F5DC;
+            border-color: #D4AF37;
+        }
+    </style>
+</head>
+<body>
+    <!-- Fixed Header -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <span class="title-font text-2xl font-bold text-gold">A Chave da Alma</span>
+            </div>
+            <a href="#offer" class="bg-gold hover:bg-yellow-700 text-white font-medium py-2 px-4 rounded-full transition duration-300 transform hover:scale-105">
+                🔑 Quero destravar minha alma
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg pt-32 pb-20 px-4 relative overflow-hidden">
+        <div class="particles" id="particles-js"></div>
+        <div class="container mx-auto text-center fade-in">
+            <h1 class="title-font text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-800">
+                Você acredita em Deus… mas ainda sente um vazio por dentro?
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 text-gray-600 max-w-3xl mx-auto">
+                Uma jornada devocional com áudios e orações para destravar sua alma e reconectar com Deus.
+            </p>
+            <a href="#offer" class="inline-block bg-gold hover:bg-yellow-700 text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105 shadow-lg">
+                Comece por apenas R$19,90
+            </a>
+        </div>
+    </section>
+
+    <!-- Emotional Problem Section -->
+    <section class="py-16 px-4 bg-gray-50 relative overflow-hidden">
+        <div class="container mx-auto">
+            <h2 class="title-font text-3xl md:text-4xl text-center mb-12 text-gray-800">
+                Você não está sozinho nessa jornada
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="text-5xl mb-4 text-gold">🙏</div>
+                    <h3 class="title-font text-xl mb-4">Você ora, mas não sente paz.</h3>
+                    <p class="text-gray-600">As palavras parecem não alcançar o céu, e você fica se perguntando se está sendo ouvido.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="text-5xl mb-4 text-gold">💔</div>
+                    <h3 class="title-font text-xl mb-4">Não é falta de fé. É sua alma tentando te alertar.</h3>
+                    <p class="text-gray-600">Esse vazio é um chamado para uma jornada mais profunda com o divino.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="text-5xl mb-4 text-gold">😔</div>
+                    <h3 class="title-font text-xl mb-4">Você parou de se escutar, e é aí que a alma se apaga.</h3>
+                    <p class="text-gray-600">Na correria do dia a dia, perdemos a conexão com nossa essência espiritual.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Breakdown -->
+    <section class="py-16 px-4 bg-white">
+        <div class="container mx-auto">
+            <h2 class="title-font text-3xl md:text-4xl text-center mb-12 text-gray-800">
+                Sua jornada de 5 dias para a libertação
+            </h2>
+            
+            <div class="grid md:grid-cols-5 gap-6 max-w-6xl mx-auto">
+                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-center">
+                    <div class="text-4xl mb-4 text-gold">1</div>
+                    <h3 class="title-font text-lg mb-2">O Silêncio</h3>
+                    <p class="text-sm text-gray-600">Aprenda a ouvir a voz de Deus no silêncio do seu coração.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-center">
+                    <div class="text-4xl mb-4 text-gold">2</div>
+                    <h3 class="title-font text-lg mb-2">A Ferida</h3>
+                    <p class="text-sm text-gray-600">Identifique e acolha as dores que estão travando sua alma.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-center">
+                    <div class="text-4xl mb-4 text-gold">3</div>
+                    <h3 class="title-font text-lg mb-2">A Presença</h3>
+                    <p class="text-sm text-gray-600">Experimente a consoladora presença de Deus em sua vida.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-center">
+                    <div class="text-4xl mb-4 text-gold">4</div>
+                    <h3 class="title-font text-lg mb-2">A Integração</h3>
+                    <p class="text-sm text-gray-600">Una sua fé com suas emoções para uma espiritualidade autêntica.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-center">
+                    <div class="text-4xl mb-4 text-gold">5</div>
+                    <h3 class="title-font text-lg mb-2">A Liberação</h3>
+                    <p class="text-sm text-gray-600">Liberte-se dos pesos que impedem sua conexão com o divino.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-16 px-4 bg-gray-50">
+        <div class="container mx-auto">
+            <h2 class="title-font text-3xl md:text-4xl text-center mb-12 text-gray-800">
+                O que você vai conquistar
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-sm flex items-start">
+                    <div class="text-3xl mr-4 text-gold">✓</div>
+                    <div>
+                        <h3 class="title-font text-lg mb-2">Reconexão com Deus</h3>
+                        <p class="text-gray-600">Redescubra a intimidade com o divino que você tanto deseja.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm flex items-start">
+                    <div class="text-3xl mr-4 text-gold">✓</div>
+                    <div>
+                        <h3 class="title-font text-lg mb-2">Liberação de traumas</h3>
+                        <p class="text-gray-600">Liberte-se das dores emocionais que pesam em sua alma.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm flex items-start">
+                    <div class="text-3xl mr-4 text-gold">✓</div>
+                    <div>
+                        <h3 class="title-font text-lg mb-2">Paz interior</h3>
+                        <p class="text-gray-600">Experimente a serenidade que vem de uma alma alinhada com Deus.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm flex items-start">
+                    <div class="text-3xl mr-4 text-gold">✓</div>
+                    <div>
+                        <h3 class="title-font text-lg mb-2">Clareza espiritual</h3>
+                        <p class="text-gray-600">Entenda os sinais divinos em sua vida com mais nitidez.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm flex items-start">
+                    <div class="text-3xl mr-4 text-gold">✓</div>
+                    <div>
+                        <h3 class="title-font text-lg mb-2">Acesso vitalício</h3>
+                        <p class="text-gray-600">PDF + Áudios disponíveis para sempre, quando você precisar.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm flex items-start">
+                    <div class="text-3xl mr-4 text-gold">✓</div>
+                    <div>
+                        <h3 class="title-font text-lg mb-2">Suporte espiritual</h3>
+                        <p class="text-gray-600">Nosso time está aqui para te acompanhar nessa jornada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gamification Section -->
+    <section class="py-16 px-4 bg-white" id="quiz">
+        <div class="container mx-auto max-w-2xl">
+            <h2 class="title-font text-3xl md:text-4xl text-center mb-12 text-gray-800">
+                Sua alma está pronta para essa jornada?
+            </h2>
+            
+            <div class="bg-gray-50 rounded-lg p-8 shadow-inner">
+                <div id="quiz-container">
+                    <div id="question-1" class="quiz-question">
+                        <h3 class="title-font text-xl mb-6 text-center">Você sente que sua alma está carregando algo que você não entende?</h3>
+                        <div class="grid gap-4">
+                            <button onclick="nextQuestion(1, 'yes')" class="quiz-option bg-gold hover:bg-yellow-700 text-white font-medium py-2 px-4 rounded-full transition duration-300 transform hover:scale-105">
+                                Sim, sinto um peso que não consigo explicar
+                            </button>
+                            <button onclick="nextQuestion(1, 'no')" class="quiz-option bg-gold hover:bg-yellow-700 text-white font-medium py-2 px-4 rounded-full transition duration-300 transform hover:scale-105">
+                                Não, mas sinto que falta algo em minha vida espiritual
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div id="question-2" class="quiz-question hidden">
+                        <h3 class="title-font text-xl mb-6 text-center">Você já se sentiu distante de Deus mesmo acreditando Nele?</h3>
+                        <div class="grid gap-4">
+                            <button onclick="nextQuestion(2, 'yes')" class="quiz-option bg-gold hover:bg-yellow-700 text-white font-medium py-2 px-4 rounded-full transition duration-300 transform hover:scale-105">
+                                Sim, parece que Ele está longe mesmo quando oro
+                            </button>
+                            <button onclick="nextQuestion(2, 'no')" class="quiz-option bg-gold hover:bg-yellow-700 text-white font-medium py-2 px-4 rounded-full transition duration-300 transform hover:scale-105">
+                                Não, mas minha fé não preenche esse vazio interior
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div id="question-3" class="quiz-question hidden">
+                        <h3 class="title-font text-xl mb-6 text-center">Você está pronto para começar algo por você?</h3>
+                        <div class="grid gap-4">
+                            <button onclick="nextQuestion(3, 'yes')" class="quiz-option bg-gold hover:bg-yellow-700 text-white font-medium py-2 px-4 rounded-full transition duration-300 transform hover:scale-105">
+                                Sim, preciso fazer algo por minha alma
+                            </button>
+                            <button onclick="nextQuestion(3, 'no')" class="quiz-option bg-gold hover:bg-yellow-700 text-white font-medium py-2 px-4 rounded-full transition duration-300 transform hover:scale-105">
+                                Ainda não sei se estou preparado
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div id="quiz-result" class="hidden text-center">
+                        <div class="text-5xl mb-6 text-gold">🔓</div>
+                        <h3 class="title-font text-2xl mb-4">Sua alma está pronta.</h3>
+                        <p class="text-lg mb-6">A chave já está na sua mão.</p>
+                        <a href="#offer" class="inline-block bg-gold hover:bg-yellow-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-105">
+                            Desbloquear por R$19,90
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+<section class="py-16 px-4 bg-gray-50">
+    <div class="container mx-auto">
+        <h2 class="title-font text-3xl md:text-4xl text-center mb-12 text-gray-800">
+            O que dizem quem já fez a jornada
+        </h2>
+        
+        <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <div class="testimonial-card bg-white p-8 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <div class="text-2xl mr-3">⭐️⭐️⭐️⭐️⭐️</div>
+                </div>
+                <p class="text-gray-600 italic mb-6">"Fazia anos que não chorava assim. Esse devocional me quebrou. Pela primeira vez em muito tempo, senti Deus me abraçando."</p>
+                <div class="flex items-center">
+                    <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=80&h=80&q=80" alt="Foto de Ana Clara" class="w-12 h-12 rounded-full mr-4 object-cover" />
+                    <div>
+                        <h4 class="title-font font-medium">Ana Clara</h4>
+                        <p class="text-sm text-gray-500">São Paulo</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card bg-white p-8 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <div class="text-2xl mr-3">⭐️⭐️⭐️⭐️⭐️</div>
+                </div>
+                <p class="text-gray-600 italic mb-6">"Parece que alguém escreveu exatamente o que eu estava vivendo. Cada palavra dos áudios falava diretamente ao meu coração."</p>
+                <div class="flex items-center">
+                    <img src="https://media.istockphoto.com/id/1346156858/pt/foto/court-of-law-and-justice-concept-portrait-of-handsome-male-witness-giving-testimony-to.jpg?s=1024x1024&w=is&k=20&c=ZIZMk52jo4BmeEhybfFc67E7iN1jzywYBMTnk4N3xok=" alt="Foto de Carlos Eduardo" class="w-12 h-12 rounded-full mr-4 object-cover" />
+                    <div>
+                        <h4 class="title-font font-medium">Carlos Eduardo</h4>
+                        <p class="text-sm text-gray-500">Rio de Janeiro</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card bg-white p-8 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <div class="text-2xl mr-3">⭐️⭐️⭐️⭐️⭐️</div>
+                </div>
+                <p class="text-gray-600 italic mb-6">"Depois de tantos anos na igreja, finalmente entendi o que significa ter uma relação pessoal com Deus. Transformador!"</p>
+                <div class="flex items-center">
+                    <img src="https://media.istockphoto.com/id/2011513209/pt/foto/portrait-of-a-serious-young-woman.jpg?s=1024x1024&w=is&k=20&c=NYQCfjjQObOeO4KvEq7hbMNIHcAkDOjACkMtedTgwac=" alt="Foto de Mariana" class="w-12 h-12 rounded-full mr-4 object-cover" />
+                    <div>
+                        <h4 class="title-font font-medium">Mariana</h4>
+                        <p class="text-sm text-gray-500">Belo Horizonte</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card bg-white p-8 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <div class="text-2xl mr-3">⭐️⭐️⭐️⭐️⭐️</div>
+                </div>
+                <p class="text-gray-600 italic mb-6">"Os áudios me guiaram por emoções que eu nem sabia que estavam guardadas. Hoje me sinto mais leve e conectada."</p>
+                <div class="flex items-center">
+                    <img src="https://media.istockphoto.com/id/1566067116/pt/foto/portrait-of-a-transgender-man.jpg?s=1024x1024&w=is&k=20&c=UNE6zLl0ngXuK2DZhmKZtu41NElrK4Kx7RtrAaJZRSQ=" alt="Foto de Roberto" class="w-12 h-12 rounded-full mr-4 object-cover" />
+                    <div>
+                        <h4 class="title-font font-medium">Roberto</h4>
+                        <p class="text-sm text-gray-500">Porto Alegre</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Offer Section -->
+    <section class="py-16 px-4 bg-white" id="offer">
+        <div class="container mx-auto max-w-4xl text-center">
+            <div class="bg-gray-50 rounded-xl p-8 md:p-12 shadow-lg border border-gold">
+                <h2 class="title-font text-3xl md:text-4xl mb-6 text-gray-800">
+                    A chave para destravar sua alma
+                </h2>
+                
+                <p class="text-xl mb-8 text-gray-600">
+                    Por apenas <span class="text-gold font-bold">R$19,90</span>, você começa uma jornada que pode curar o que está travado em você há anos.
+                </p>
+                
+                <p class="text-lg mb-8 italic text-gray-500">
+                    Menos que uma pizza. Mas o alimento aqui é outro: é pra alma.
+                </p>
+                
+                <div class="mb-8 p-6 bg-white rounded-lg border border-gray-200 inline-block">
+                    <div class="text-4xl text-gold mb-2">R$19,90</div>
+                    <div class="text-sm text-gray-500">Pagamento único • Acesso imediato</div>
+                </div>
+                
+                <div class="mb-8">
+                    <a href="https://global.disruptybr.com.br/v4vwhti1vn" class="inline-block bg-gold hover:bg-yellow-700 text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105 shadow-lg">
+                        Quero acessar agora
+                    </a>
+                </div>
+                
+                <div class="flex justify-center">
+                    <div class="flex items-center bg-white p-4 rounded-lg border border-gray-200 max-w-md">
+                        <div class="text-3xl mr-4 text-gold">🔒</div>
+                        <div class="text-left">
+                            <h4 class="title-font font-medium">Compra 100% segura</h4>
+                            <p class="text-sm text-gray-500">Seus dados estão protegidos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="py-16 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-3xl text-center">
+            <div class="bg-white p-8 rounded-lg shadow-sm">
+                <div class="text-5xl mb-6 text-gold">🕊️</div>
+                <h3 class="title-font text-2xl mb-4">Nossa garantia espiritual</h3>
+                <p class="text-lg mb-6 text-gray-600">
+                    Se você ouvir e não sentir nada, devolvemos seu dinheiro. Sem perguntas. Porque talvez ainda não seja sua hora. E tudo bem.
+                </p>
+                <p class="text-gray-500">
+                    Você tem 7 dias para experimentar a jornada e decidir.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 bg-gray-800 text-white">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <h3 class="title-font text-2xl mb-4 text-gold">A Chave da Alma</h3>
+                    <p class="mb-4 text-gray-300">
+                        Uma jornada devocional para quem busca reconectar com Deus e libertar a alma.
+                    </p>
+                    <p class="italic text-gray-400">
+                        "A alma só se cura quando a gente para de fugir dela."
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="title-font text-lg mb-4">Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-gold transition">Termos de uso</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-gold transition">Política de privacidade</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-gold transition">Dúvidas frequentes</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="title-font text-lg mb-4">Contato</h4>
+                    <ul class="space-y-2">
+                        <li><a href="https://wa.me/5511999999999" class="text-gray-300 hover:text-gold transition">WhatsApp</a></li>
+                        <li><a href="https://instagram.com/achavedaalma" class="text-gray-300 hover:text-gold transition">Instagram</a></li>
+                        <li><a href="https://tiktok.com/@achavedaalma" class="text-gray-300 hover:text-gold transition">TikTok</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>© 2023 A Chave da Alma. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Quiz functionality
+        function nextQuestion(currentQuestion, answer) {
+            document.getElementById(`question-${currentQuestion}`).classList.add('hidden');
+            
+            if (currentQuestion < 3) {
+                document.getElementById(`question-${currentQuestion + 1}`).classList.remove('hidden');
+            } else {
+                document.getElementById('quiz-result').classList.remove('hidden');
+            }
+            
+            // Add selected class to clicked option
+            const options = document.querySelectorAll(`#question-${currentQuestion} .quiz-option`);
+            options.forEach(option => {
+                option.classList.remove('selected');
+                if (option.textContent.trim().toLowerCase().includes(answer)) {
+                    option.classList.add('selected');
+                }
+            });
+        }
+        
+        // Create particles for background
+        function createParticles() {
+            const container = document.getElementById('particles-js');
+            const particleCount = 30;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+                
+                // Random properties
+                const size = Math.random() * 5 + 1;
+                const posX = Math.random() * 100;
+                const posY = Math.random() * 100;
+                const delay = Math.random() * 5;
+                const duration = Math.random() * 10 + 10;
+                
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.left = `${posX}%`;
+                particle.style.top = `${posY}%`;
+                particle.style.animation = `float ${duration}s ease-in-out ${delay}s infinite`;
+                
+                container.appendChild(particle);
+            }
+        }
+        
+        // Add floating animation to particles
+        const style = document.createElement('style');
+        style.innerHTML = `
+            @keyframes float {
+                0% {
+                    transform: translateY(0) translateX(0);
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0.5;
+                }
+                100% {
+                    transform: translateY(-100px) translateX(20px);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+        
+        // Initialize when page loads
+        window.onload = function() {
+            createParticles();
+        };
+    </script>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://enzostvs-deepsite.hf.space/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://enzostvs-deepsite.hf.space" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://enzostvs-deepsite.hf.space?remix=Businessamaral7/a-chave-da-alma" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
+</html>
